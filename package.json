@@ -1,0 +1,21 @@
+{
+  "name": "github-stats-analyzer",
+  "version": "1.0.0",
+  "description": "A web-based application to analyze GitHub repository statistics",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+     "start": "node build/node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "typescript": "^5.8.2"
+  }
+}
